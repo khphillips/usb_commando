@@ -1,7 +1,7 @@
 # USB Commando
 Requires nodejs and npm to be installed. 
 
-Testing app for connecting to USB Commando. Reads the 3 analog outputs and display integer readins for each. 
+Electron app for testing connection to USB Commando. Reads the 3 analog outputs and display integer readins for each. 
 
 http://www.exhibit-control.net/wordpress/products/inputs-sensors/customize-usb-input-hid/
 
