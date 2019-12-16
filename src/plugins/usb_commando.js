@@ -34,7 +34,8 @@ export default {
 		});
 	},
 	send(usb_commando, data){
-		usb_commando.write(data); //[0, d, i, 0, 0, 0, 0, 0]
+		this.setDevice(usb_commando);
+		this.current_device.write(data); //[0, d, i, 0, 0, 0, 0, 0]
 	}
 }
 
