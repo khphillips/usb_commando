@@ -77,4 +77,7 @@ body h2.output{
   font-size: 3.5em;
   margin-top: 0;
 }
+body .v-application .theme--light.v-label{
+  color: #c5bcab 
+}
 </style>
