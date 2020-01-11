@@ -1,5 +1,5 @@
 {
-  "name": "electron-test",
+  "name": "USB_Commando",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,10 +7,10 @@
     "build": "vue-cli-service build",
     "electron:build": "vue-cli-service electron:build",
     "electron:serve": "vue-cli-service electron:serve",
-    "postinstall" : "electron-rebuild --force",
-    "rebuild" : "electron-rebuild --force",
+    "postinstall": "electron-rebuild --force",
+    "rebuild": "electron-rebuild --force",
     "postuninstall": "electron-builder install-app-deps",
-    "old_postinstall" : "electron-builder install-app-deps electron-rebuild --force"
+    "old_postinstall": "electron-builder install-app-deps electron-rebuild --force"
   },
   "main": "background.js",
   "dependencies": {
