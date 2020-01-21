@@ -89,9 +89,11 @@ export default {
           data[5] * 256 + data[6]
         ]
       }else{
-        data[3] * 256 + data[4],
-        data[5] * 256 + data[6],
-        data[7] * 256 + data[8]
+        this.outputs = [
+          data[3] * 256 + data[4],
+          data[5] * 256 + data[6],
+          data[7] * 256 + data[8]
+        ]
       }
       //var d4 = data[7] * 256 + data[8];
       this.device_id = data[0];

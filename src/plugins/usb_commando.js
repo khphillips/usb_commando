@@ -30,7 +30,7 @@ export default {
 		this.setDevice(usb_commando);
 		this.current_device.on("data", function(data) {
 			callback(data);
-			//console.log("#" + data[0], data[1] * 256 + data[2], data[3] * 256 + data[4], data[5] * 256 + data[6], data[7] * 256 + data[8], data[9])
+			console.log("#" + data[0], data[1] * 256 + data[2], data[3] * 256 + data[4], data[5] * 256 + data[6], data[7] * 256 + data[8], data[9])
 		});
 	},
 	send(usb_commando, data){
